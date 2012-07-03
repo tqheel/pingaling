@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Sites>
+  <Site>
+    <SiteName>Site1</SiteName>
+    <SiteURL>http://www.google.com</SiteURL>
+  </Site>
+    <Site>
+    <SiteName>Site2</SiteName>
+    <SiteURL>http://www.yahoo.com</SiteURL>
+  </Site>
+    <Site>
+    <SiteName>Site3</SiteName>
+    <SiteURL>http://www.teqknowledgy.com</SiteURL>
+  </Site>
+    <Site>
+    <SiteName>Site4</SiteName>
+    <SiteURL>http://www.cbsnews.com</SiteURL>
+  </Site>
+    <Site>
+    <SiteName>Site5</SiteName>
+    <SiteURL>http://www.amazon.com</SiteURL>
+  </Site>
+</Sites>
