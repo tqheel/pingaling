@@ -40,8 +40,12 @@
 <ul>
 <li>Open the project in Visual Studio (.Net 4.0).</li>
 <li>Modify the included sites.xml file to include the sites that you want to "pingaling."</li>
+<li>Modify the web.config appSettings to fit your personal situation (e.g, Email address to be notified upon failure).</li>
 <li>Build the project.</li>
-<li>Copy the executable and sites.xml files from the debug folder to a directory of your choosing.</li>
+<li>Copy the executable from the debug folder to a directory of your choosing.</li>
+<li>Copy the sites.xml file (the one you edited) from the root of the project into the same directory as the executable.  
+	Note that if you want to debug the project in VS before deploying it, you will need to copy your sites.xml to the debug folder after building the project.
+</li>
 <li>CD to that directory and type pingaling.</li>
 <li>(Optional) Set-up Pingaling to run as as scheduled task in Windows Task Scheduler at the interval of your choosing.</li>
 <li>Enjoy the goodness.</li>
